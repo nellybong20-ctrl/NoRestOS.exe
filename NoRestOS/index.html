@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>NoRestOS.exe </title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+    <div class="container">
+  <h1 class="title logo">🌙 NoRestOS.exe</h1>
+
+  <h2 id="systemStatus" class="system-status">
+    SYSTEM STATUS: STABLE
+  </h2>
+  <div class="dashboard">
+
+    <!-- Power Core -->
+    <div class="card energy-card">
+      <p id="system-status">System Stable</p>
+      <h2>⚡ Power Core</h2>
+      <div class="bar">
+        <div id="energy-bar"></div>
+      </div>
+      <button id="caffeine-btn">Overclock</button>
+      <button id="nap-btn">Cooldown Cycle</button>
+    </div>
+
+    <!-- Upgrade Matrix -->
+    <div class="card xp-card">
+      <h2>📈 Upgraded Matrix</h2>
+      <p>Level: <span id="level">1</span></p>
+      <div class="bar">
+        <div id="xp-bar"></div>
+      </div>
+      <p><span id="xp">0</span> XP</p>
+    </div>
+
+    <!-- Active Processes (Full Width) -->
+    <div class="card full-width">
+      <h2>🧠 Active Processes</h2>
+      <input type="text" id="task-input" placeholder="Enter mission...">
+      <button id="add-task">Deploy Process</button>
+      <ul id="task-list"></ul>
+    </div>
+
+    <!-- Transmission -->
+    <div class="card">
+      <h2>📡 Transmission</h2>
+      <button id="transmit-btn">Receive Transmission</button>
+      <p id="message"></p>
+    </div>
+
+    <!-- Panic Mode -->
+    <div class="card">
+      <h2>🚨 Panic Mode</h2>
+      <button id="panic-btn">DEBUG MELTDOWN</button>
+    </div>
+
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
